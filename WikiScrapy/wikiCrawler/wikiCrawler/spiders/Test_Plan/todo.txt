@@ -1,0 +1,4 @@
+*** UPCOMING ***
+
+1. I need to change each item name if they are the same on each webpage. like dicovery1, discovery2 etc...
+2. possibly make multiple items.py field to avoid the title and title_two from being a field in teach row in the databse and JSON file. 
