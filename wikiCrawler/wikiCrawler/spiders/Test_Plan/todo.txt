@@ -1,0 +1,26 @@
+*** UPCOMING ***
+
+✅ 1. I need to change each item name if they are the same on each webpage. like dicovery1, discovery2 etc...
+🚫 2. possibly make multiple items.py field to avoid the title and title_two from being a field in teach row in the databse and JSON file. 
+✅ 3. update Sipder with new web pages
+✅ 4. update items with new wiki web pages
+🟡 5. update database with new wiki Items
+✅ 6. update the pipeline with new wiki Items
+✅ 7. Create None values for all the new items
+🟡 8. Use the join and strip keyword for the wiki values in the new items if need be 
+🟠 9. Check/Validate new css locators in the Spider
+✅ 10. Clean up the JSON file
+✅ 11. File process_item with updated items database
+✅ 12. Update the tables with new wiki data items and varchar(755)
+✅ 12. Update the INSERT statement with new wiki data items
+✅ 13. Update the migration placeholders %s 
+   ✅ - Check the number of placeholders to the number of items below the VALUES tuple
+🟡 14. Migrate raw data to json and mysql
+🟡 15. Check the locators on the 6th JSON object starting with title_six in the Spider/Crawler
+   🟡 - Check locators in each current null value against a locator in the spider
+{
+    'title': value,
+    'Summary': null,
+    'Descripton': null,
+}
+JSON object with 3 json properties
