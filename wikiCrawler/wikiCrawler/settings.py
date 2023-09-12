@@ -9,7 +9,7 @@
 
 BOT_NAME = "wikiCrawler"
 FEEDS = {
-    'wiki.json':{
+    'Crawled_WikiData.json':{
         'format':'json'
     }
 }
