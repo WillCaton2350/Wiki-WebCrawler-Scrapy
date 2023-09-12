@@ -64,7 +64,6 @@ class DBConnector:
         item['the_british_museum_state'] = join_if_present(item.get('the_british_museum_state'))
         item['the_ashmolean_state'] = join_if_present(item.get('the_ashmolean_state'))
 
-        # Your existing code to insert the data into the database
         self.cur.execute(
             """
             INSERT INTO wikiData_TB (
